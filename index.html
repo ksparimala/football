@@ -10,90 +10,114 @@
     <!-- semantic web tags -->
     <!-- Navigation part is done -->
     <div class="main1">
-    <table>
-<nav>
-    <tr>
-    <th><img src="./k.png" height=100 width=100 alt=""/></th>
-    <th>FOOT BALL LEAGUE</th>
-    <th><a href="#teams">TEAMS</a></th>
-    <th><a href="#fixtures"> FIXTURES</a></th>
-    <th><a href="#gameplay">GAME PLAY</a></th>
-    <th><a href="#points">POINTS TABLE</a></th> 
-    </tr>
-</nav>
+    <nav>
+        <ul>
+            <li class="logo-text">
+                <img class = "logo-img" src="./k.png" alt=""/> </li>
+            <li>
+                <ul>
+                    <li><a href="#teams" class="nav-link">TEAMS</a></li>
+                    <li><a href="#fixtures" class="nav-link">FIXTURES</a></li>
+                    <li><a href="./game.html" class="nav-link">GAME PLAY</a></li>
+                    <li><a href="#pointstable" class="nav-link">POINTS TABLE</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </div>
-<tr>
-   <header id="#teams">
+   <header id="teams">
        <div>
-        <td><article>
+        <article>
             <img src="./a.jpeg"  height=200 width=200 alt=""/>
             <h4> TEAM-1</h4>
             </article>
-        </td>
-        <td><article>
+        <article>
             <img src="./ab.png" height=200 width=200 alt=""/>
             <h4> TEAM-2</h4>
         </article>
-        </td>
-        <td><article>
+        <article>
             <img src="./ci.jpg" height=200 width=200  alt=""/>
             <h4> TEAM-3</h4>
-        </article></td>
-        <td><article>
+        </article>
+        <article>
             <img src="./is.jpg" height=200 width=200  alt=""/>
             <h4> TEAM-4</h4>
-        </article></td>
-        <td><article>
+        </article>
+        <article>
             <img src="./lp.jpg"  height=200 width=200 alt=""/>
             <h4> TEAM-5</h4>
-        </article></td>
-        <td><article>
+        </article>
+        <article>
             <img src="./mc.jpg"  height=200 width=200 alt=""/>
-            <h4> Delhi Daredevils</h4>
-        </article></td>
+            <h4> TEAM-6</h4>
+        </article>
        </div>
-
    </header>
-</tr>
-</table><center>
-    <section id="#gameplay">
-       <div class="container">
-           <table>
-               <tr><th></th>
-        <div class="row">
-            <th>
-            <div class="col">
-                <img src="./wf.jpg" height=200 width=200  alt="">
-                <span></span>
-                <div class="row">
-                    <span class="col">1</span>
-                    <span class="col">0</span>
-                    <span class="col">1</span>
-                    <span class="col">1</span>
-                    <span class="col">0</span>
-                    <span class="col">0</span>
+   <section id="fixtures">
+        
+            <div class="flex container-fix">
+                <div class="flex qualifier">
+                    <div class="flex set">
+                        <div class="card1">
+                            <img class="a" src="./a.jpeg" alt="TEAM1">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img class="ab" src="./ab.png" alt="TEAM2">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img class="ci" src="./ci.jpg" alt="TEAM3">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img class="is" src="./is.jpg" alt="TEAM4">
+                        </div>
+                     </div>
+                     <div class="flex set">
+                        <div class="card1">
+                            <img class="lp" src="./lp.jpg" alt="TEAM5">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1 ">
+                            <img class="mc" src="./mc.jpg" alt="TEAM6">
+                        </div>
+                     </div>
+                </div>
+                <div class="flex semiFinal">
+                    <div class="flex set">
+                        <div class="card1">
+                            <img class="ab" src="./ab.png" alt="TEAM2">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1">
+                            <img class="lp" src="./lp.jpg" alt="TEAM5">
+                        </div>
+                    </div>
+                    <div class="flex set">
+                        <div class="card1">
+                            <img class="ci" src="./ci.jpg" alt="TEAM3">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="card1">
+                            <img class="mc" src="./mc.jpg" alt="TEAM6">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex final">
+                    <div class="card1">
+                        <img class="lp" src="./lp.jpg" alt="TEAM5">
+                    </div>
+                    <h3>VS</h3>
+                    <div class="card1">
+                        <img class="mc" src="./mc.jpg" alt="TEAM6">
+                    </div>
                 </div>
             </div>
-            </th><th></th>
-            <th>
-            <div class="col">
-                <img src="./mc.jpg" height=200 width=200  alt="">
-                <span></span>
-                <div class="row">
-                    <span class="col">1</span>
-                    <span class="col">0</span>
-                    <span class="col">0</span>
-                    <span class="col">0</span>
-                    <span class="col">1</span>
-                    <span class="col">1</span>
-                </div>
-            </div>
-        </th>
-        </div>
-    </div>
-   </section></center>
-</table>
-   <footer>
+       </section>
+
+<footer >
        Happy Coding ProGrads
    </footer>
 </body>
