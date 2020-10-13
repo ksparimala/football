@@ -8,7 +8,7 @@
 body{
     font-family:"Montserrat";
     font-size: 10px;
-    background: #edfdfe;
+    background: #a6a8a8;
 }
 /* General settings for font */
 h1,
@@ -67,7 +67,7 @@ nav ul li{
     color: #f05136;
 }
 #teams{
-    background:  #9013fe;
+    background: linear-gradient(135deg, #22486d, #f0cb35);;
     color:white;
     height: 450px;
     display:flex;
